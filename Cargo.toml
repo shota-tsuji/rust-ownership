@@ -1,0 +1,81 @@
+[package]
+name = "rust-ownership"
+version = "0.1.0"
+authors = ["shota-tsuji <shotatuzi@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "clone"
+path = "src/clone.rs"
+
+[[bin]]
+name = "copy"
+path = "src/copy.rs"
+
+[[bin]]
+name = "function"
+path = "src/function.rs"
+
+[[bin]]
+name = "return-values-and-scope"
+path = "src/return-values-and-scope.rs"
+
+[[bin]]
+name = "return-as-tuple"
+path = "src/return-as-tuple.rs"
+
+[[bin]]
+name = "references-1"
+path = "src/references-1.rs"
+
+[[bin]]
+name = "references-2"
+path = "src/references-2.rs"
+
+[[bin]]
+name = "mutable-references-1"
+path = "src/mutable-references-1.rs"
+
+[[bin]]
+name = "mutable-references-2"
+path = "src/mutable-references-2.rs"
+
+[[bin]]
+name = "mutable-references-3"
+path = "src/mutable-references-3.rs"
+
+[[bin]]
+name = "mutable-references-4"
+path = "src/mutable-references-4.rs"
+
+[[bin]]
+name = "mutable-references-5"
+path = "src/mutable-references-5.rs"
+
+[[bin]]
+name = "dangling-references-1"
+path = "src/dangling-references-1.rs"
+
+[[bin]]
+name = "dangling-references-2"
+path = "src/dangling-references-2.rs"
+
+[[bin]]
+name = "slice-1"
+path = "src/slice-1.rs"
+
+[[bin]]
+name = "slice-2"
+path = "src/slice-2.rs"
+
+[[bin]]
+name = "slice-3"
+path = "src/slice-3.rs"
+
+[[bin]]
+name = "slice-4"
+path = "src/slice-4.rs"
